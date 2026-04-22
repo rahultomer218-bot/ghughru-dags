@@ -7,7 +7,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, confusion_matrix
 
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
+
+mlflow.set_tracking_uri("https://dagshub.com/rahultomer218/ghughru-dags.mlflow")
 
 
 wine = load_wine()
